@@ -48,13 +48,15 @@ a {
 
 /* Background Cards */
 .bg0 {
-        width: 100px;
-        height: 100px;
         position: absolute;
-        top: 150;
+        top: 50;
         bottom: 0;
-        left: 530;
+        left: 0;
         right: 0;
+}
+.bg01 {
+        margin:0 auto;
+        text-align: center;
 }
 .bg1 {
         border-radius: 10px;
