@@ -58,12 +58,23 @@ a {
         margin:0 auto;
         text-align: center;
 }
+.cbgf {
+        position: absolute;
+        top: 120px;
+        left: 0;
+        width: 100%;
+        -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+        mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+        -webkit-mask-image:-webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+        mask-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+}
 .bg1 {
         border-radius: 10px;
-        background-color: #4717F6;
+        background: rgba(255, 255, 255, 0.1);
         position: absolute;
         float: left;
         margin-left: 10%;
+        margin-top: 10px;
         padding-top: 10px;
         padding-right: 10px;
         padding-bottom: 10px;
@@ -139,7 +150,7 @@ a {
         font-size: 17px;
 }
 .navbar a:hover {
-        background-color: #A239CA;
+        background-color: #E7DFDD;
         color: #0E0B16;
 }
 .navbar a.active {
